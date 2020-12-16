@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "96E5B2A51A70FCB40074B77B"
                BuildableName = "CHDataStructures.framework"
-               BlueprintName = "iOS"
+               BlueprintName = "CHDataStructures"
                ReferencedContainer = "container:CHDataStructures.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96E5B2A51A70FCB40074B77B"
             BuildableName = "CHDataStructures.framework"
-            BlueprintName = "iOS"
+            BlueprintName = "CHDataStructures"
             ReferencedContainer = "container:CHDataStructures.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,7 +78,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96E5B2A51A70FCB40074B77B"
             BuildableName = "CHDataStructures.framework"
-            BlueprintName = "iOS"
+            BlueprintName = "CHDataStructures"
             ReferencedContainer = "container:CHDataStructures.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -94,7 +94,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "96E5B2A51A70FCB40074B77B"
             BuildableName = "CHDataStructures.framework"
-            BlueprintName = "iOS"
+            BlueprintName = "CHDataStructures"
             ReferencedContainer = "container:CHDataStructures.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

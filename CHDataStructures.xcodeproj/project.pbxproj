@@ -96,6 +96,8 @@
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		37073D67253400270010BBBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3722E0DC219FEE0C005F0331 /* CHDataStructures.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHDataStructures.podspec; sourceTree = "<group>"; };
+		37761AB02585B925009CD206 /* libdatastructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libdatastructure.h; sourceTree = "<group>"; };
+		37761AB12585B925009CD206 /* libdatastructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libdatastructure.m; sourceTree = "<group>"; };
 		96E5B2A61A70FCB40074B77B /* CHDataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHDataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5B2B01A70FCB50074B77B /* CHDataStructures.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHDataStructures.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E400CAAA0F7919B7003189D3 /* CHCircularBufferQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHCircularBufferQueue.h; path = source/CHCircularBufferQueue.h; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				E4FAE0F60E967A8B007BB1F9 /* Benchmarks */,
 				089C1665FE841158C02AAC07 /* Resources */,
 				0867D69AFE84028FC02AAC07 /* Linked Frameworks */,
+				37761AAF2585B925009CD206 /* libdatastructure */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			name = CHDataStructures;
@@ -300,6 +303,15 @@
 				E4ADBB230E88174200B570BC /* CHUnbalancedTree.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		37761AAF2585B925009CD206 /* libdatastructure */ = {
+			isa = PBXGroup;
+			children = (
+				37761AB02585B925009CD206 /* libdatastructure.h */,
+				37761AB12585B925009CD206 /* libdatastructure.m */,
+			);
+			path = libdatastructure;
 			sourceTree = "<group>";
 		};
 		E44B57D00E9558A000F9DD1A /* Protocols */ = {
@@ -415,9 +427,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		96E5B2A51A70FCB40074B77B /* iOS */ = {
+		96E5B2A51A70FCB40074B77B /* CHDataStructures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96E5B2BF1A70FCB50074B77B /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = 96E5B2BF1A70FCB50074B77B /* Build configuration list for PBXNativeTarget "CHDataStructures" */;
 			buildPhases = (
 				96E5B2A31A70FCB40074B77B /* Headers */,
 				96E5B2A11A70FCB40074B77B /* Sources */,
@@ -428,7 +440,7 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = CHDataStructures;
 			productName = iOS;
 			productReference = 96E5B2A61A70FCB40074B77B /* CHDataStructures.framework */;
 			productType = "com.apple.product-type.framework";
@@ -485,7 +497,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96E5B2A51A70FCB40074B77B /* iOS */,
+				96E5B2A51A70FCB40074B77B /* CHDataStructures */,
 				96E5B2AF1A70FCB50074B77B /* iOSTests */,
 			);
 		};
@@ -565,7 +577,7 @@
 /* Begin PBXTargetDependency section */
 		96E5B2B31A70FCB50074B77B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96E5B2A51A70FCB40074B77B /* iOS */;
+			target = 96E5B2A51A70FCB40074B77B /* CHDataStructures */;
 			targetProxy = 96E5B2B21A70FCB50074B77B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -816,7 +828,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		96E5B2BF1A70FCB50074B77B /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		96E5B2BF1A70FCB50074B77B /* Build configuration list for PBXNativeTarget "CHDataStructures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96E5B2B91A70FCB50074B77B /* Debug */,
